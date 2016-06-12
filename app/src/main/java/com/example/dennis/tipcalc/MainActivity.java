@@ -21,6 +21,14 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
+        if(item.getItemId()==R.id.action_about){
+            about();
+        }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void about() {
+
     }
 }
